@@ -1,17 +1,16 @@
 INSERT INTO department (name)
-VALUES  ("Creative")
-        ("Sales")
-        ("Engineering")
-        ("Executive Suite")
+VALUES  ("Creative"),
+        ("Sales"),
+        ("Engineering"),
+        ("Executive Suite");
         
-
 INSERT INTO role (title, salary, department_id)
 VALUES  ("Creative Director", 100000, 1),
         ("Director of Photography", 80000, 1),
-        ("Account Manager", 60000. 2),
+        ("Account Manager", 60000, 2),
         ("Customer Engagement", 80000, 2),
         ("Front End Developer", 108000, 3),
-        ("Back End Developer", 125000, 3)
+        ("Back End Developer", 125000, 3),
         ("COO", 200000, 4),
         ("CEO", 400000, 4);
 
@@ -39,7 +38,7 @@ VALUES  ("Simon", "Haley", 8, null),
         ("Zakariya", "Ruiz", 2, 7),
         ("Priya", "Haines", 2, 7),
         ("Carmen", "Acevedo", 1, 8),
-        ("Claudia", "Glenn", 1, 8),
+        ("Claudia", "Glenn", 1, 8);
 
 
         
